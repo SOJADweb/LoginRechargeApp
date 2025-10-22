@@ -1,0 +1,200 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* .box{
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    border: 2px solid;
+    margin-top: 40px;
+} */
+ /* style the Nav */
+
+ .nav{
+border: solid 2px;
+ }
+
+ .genlayout{
+max-width: 1000px;
+margin: auto;
+
+ }
+ .innerNav{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+ }
+ .navItems{
+    display: flex;
+    gap: 3rem;
+ }
+ .navItems > a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+ }
+
+ .Login{
+    display: flex;
+    gap: 1rem;
+ }
+ .Login > select{
+    border: none;
+ }
+
+ .Login > button{ 
+    border: none;
+    background-color: white;
+    padding: .3rem .8rem ;
+border-radius: 25px;
+text-transform: capitalize;
+font-size: 12px;
+color: blue;
+ }
+
+ .Login > button:nth-child(2){
+background-color: transparent;
+border-radius: 0;
+color: blue;
+text-transform: lowercase;
+ }
+ .Login > button:nth-child(2) > span{
+border-bottom: 2px solid blue;
+ }
+
+
+ /* Styling for Main */
+ section{
+    padding-top: 2rem;
+    display: flex;
+ }
+
+ .contactcontent{
+    flex: 1;
+    background-image: url("./image/Ellipse\ 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .contactcontent > h1 {
+    font-size: 2.5rem;
+    width: 350px;
+    font-weight: 600;
+    line-height: 3.3rem;
+     }
+
+     .contactcontent > p {
+        margin-top: 2rem;
+        width: 230px;
+     }
+
+     .contactcontent > p > a {
+        color: #4461f2;
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+     }
+
+     .contactimg {
+        flex: 1;
+        margin-right: 45px;
+        }
+
+        .contactimg > img{
+            width: 100%;
+        }
+
+
+        form{
+            flex: 1;
+        }
+
+
+        .inputcontainer {
+            background-color: #eaf0f7;
+            display: flex;
+            align-items: center;
+            padding-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .inputcontainer >  input {
+            border: none;
+            outline: none;
+            width: 100%;
+            border-radius: 5px;
+            padding: 0.7rem 1rem;
+            background-color: transparent;
+        }
+
+        .inputcontainer > input::placeholder{
+            text-transform: capitalize;
+            font-size: 13px;
+            color: #4f555a;
+        }
+
+        form > a{
+            display: block;
+            text-align: end;
+            text-transform: capitalize;
+            font-size: 12px;
+            text-decoration: none;
+            color: #c7c7c7;
+            font-weight: 300;    
+        }
+
+
+        form > button{
+            background-color: #4461f2;
+            border: none;
+            padding: 0.8rem 1rem;
+            margin-top: 1.5rem;
+            width: 100%;
+            color: #fff;
+            text-transform: capitalize;
+            border-radius: 5px;
+        }
+
+
+        .socialicon{
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem
+        }
+
+        .socialicon > span {
+            border: 1px solid grey;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            height: 50px;
+            font-size: 1.5rem;
+        }
+        
+
+        .socialicon > span:nth-child(2){
+            border: 0;
+            background-color: #fff;
+            box-shadow: .2rem .2rem 10px grey;
+             }
+
+        .socialicon > span:nth-child(3){
+            border: 0;
+            background-color: #fff;
+            box-shadow: .2rem .2rem 10px grey;
+            color: blue;
+            
+        }
